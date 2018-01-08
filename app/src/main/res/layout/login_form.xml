@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<EditText
+    android:id="@+id/login_username"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:textColor="#002869"
+    android:textSize="20dp"
+    android:hint="请输入用户名"
+    android:textColorHint="#d0002869"
+    android:maxLines="1"
+    android:inputType="textShortMessage"
+    android:maxLength="12"
+    android:background="@android:color/transparent"
+    android:textAlignment="center"
+    />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#55FFFFFF"
+        android:layout_marginTop="1dp"/>
+    <EditText
+        android:id="@+id/login_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#002869"
+        android:textSize="20dp"
+        android:hint="请输入密钥"
+        android:maxLength="16"
+        android:textColorHint="#d0002869"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="5dp"
+        android:inputType="textPassword"
+        android:textAlignment="center"/>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#55FFFFFF"
+        android:layout_marginTop="1dp"/>
+</merge>

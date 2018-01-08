@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true">
+
+    <Button
+        android:id="@+id/test_login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="登录接口验证" />
+
+    <Button
+        android:id="@+id/test_devicelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取设备列表" />
+
+    <Button
+        android:id="@+id/test_rtlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取实时数据列表" />
+
+    <Button
+        android:id="@+id/test_wtlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取读写开关列表" />
+
+    <Button
+        android:id="@+id/test_wtdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="开关属性写入" />
+
+    <Button
+        android:id="@+id/test_historydata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取某时间段历史数据" />
+
+    <Button
+        android:id="@+id/test_rtdata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取某实时属性实时数值" />
+
+    <Button
+        android:id="@+id/test_alarmlist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取报警列表" />
+
+    <Button
+        android:id="@+id/test_rtalarm"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="查询一天内的报警信息" />
+    <ImageView
+        android:id="@+id/test_glide"
+        android:layout_width="100dp"
+        android:layout_height="11dp" />
+    <WebView
+        android:id="@+id/web_test"
+        android:layout_width="100dp"
+        android:layout_height="100dp"></WebView>
+</LinearLayout>

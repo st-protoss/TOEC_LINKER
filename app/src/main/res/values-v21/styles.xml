@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Theme.AppCompat.DayNight.NoActionBar-->
+    <style name="AppTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <item name="colorPrimary">#156aac</item>
+        <item name="colorPrimaryDark">#156aac</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+    <style name="LoginTheme" parent="Theme.AppCompat.DayNight.NoActionBar">
+        <item name="android:windowTranslucentStatus">false</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowFullscreen">true</item>
+        <!--<item name="android:windowBackground">@mipmap/login</item>-->
+    </style>
+
+</resources>

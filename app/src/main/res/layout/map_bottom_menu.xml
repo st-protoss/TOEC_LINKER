@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="300dp"
+    android:background="#fff">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_width="20dp"
+        android:layout_height="20dp"
+        android:src="@drawable/ic_list"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="设备列表"
+        android:textColor="#252525"/>
+</LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.8dp"
+        android:background="#e2e2e2"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+        <com.ck.toec.toec_linker.modules.device.entity.mListView
+        android:id="@+id/dialog_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+    </ScrollView>
+
+</LinearLayout>

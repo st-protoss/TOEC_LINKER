@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#e41f1f</color>
+    <color name="history_chart_title">#00217c</color>
+    <color name="alarm_chart_title">#ff1e1e</color>
+    <color name="map_checked">#ff4949</color>
+</resources>

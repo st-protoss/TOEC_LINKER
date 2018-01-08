@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="18dp"
+    android:paddingRight="18dp"
+    android:paddingTop="32dp">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableStart="@drawable/ic_poll"
+        android:drawablePadding="4dp"
+        android:gravity="center"
+        android:text="关于TOEC物联网"
+        android:textSize="12dp" />
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.3dp"
+        android:background="#1d92cc"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="8dp"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toec_linker是一个综合的物联网平台。用户可以将支持通用协议（modbus,mqtt等）的物联网设备通过专用的物联网网关接入平台。在平台上只需要简单的自主配置，即可以进行网页端和手机端的设备实时状态查看，历史数据查询，报警的实时提醒等物联网实用功能。本产品为平台的Android APP端。"
+        android:textSize="12dp"
+        android:lineSpacingExtra="5dp"/>
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawablePadding="4dp"
+            android:drawableStart="@drawable/ic_poll"
+            android:gravity="center"
+            android:text="联系我们"
+            android:textSize="12dp" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="5dp"
+            android:background="#1d92cc" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:columnCount="2">
+
+            <Button android:id="@+id/bt_report"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:drawablePadding="12dp"
+                android:drawableStart="@drawable/ic_account_box"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="start|center_vertical"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:text="意见错误反馈"
+                android:textColor="#6f6f6f"
+                />
+            <Button android:id="@+id/bt_website"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:drawablePadding="12dp"
+                android:drawableStart="@drawable/ic_desktop"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="start|center_vertical"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:text="访问公司网站"
+                android:textColor="#6f6f6f"
+                />
+            <Button android:id="@+id/bt_shareUrl"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:drawablePadding="12dp"
+                android:drawableStart="@drawable/ic_keyboard_capslock"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="start|center_vertical"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:text="分享下载链接"
+                android:textColor="#6f6f6f"
+                />
+            <Button android:id="@+id/bt_getGzNum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="2dp"
+                android:drawablePadding="12dp"
+                android:drawableStart="@drawable/ic_room"
+                android:background="?android:attr/selectableItemBackground"
+                android:gravity="start|center_vertical"
+                android:paddingEnd="12dp"
+                android:paddingStart="12dp"
+                android:text="获取公众号"
+                android:textColor="#6f6f6f"
+                />
+        </GridLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/ic_poll"
+            android:drawablePadding="4dp"
+            android:gravity="center"
+            android:text="版本更新"
+            android:textSize="12dp" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.3dp"
+            android:background="#1d92cc"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="8dp"/>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical">
+            <TextView
+                android:id="@+id/tv_version"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:text="当前版本：1.0.0"
+                android:lineSpacingExtra="5dp"
+                android:textAlignment="center"/>
+            <Button
+                android:layout_marginTop="10dp"
+                android:id="@+id/check_version"
+                android:layout_width="300dp"
+                android:layout_height="30dp"
+                android:layout_alignParentBottom="true"
+                android:layout_marginBottom="24dp"
+                android:background="@drawable/start_button"
+                android:layout_centerHorizontal="true"
+                android:text="检测版本"
+                android:textColor="#d0002869"
+                android:clickable="true"/>
+        </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

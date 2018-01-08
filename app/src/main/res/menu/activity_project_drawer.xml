@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:title="@string/nav_user">
+    <menu>
+        <item
+            android:id="@+id/nav_camera"
+            android:icon="@drawable/ic_desktop"
+            android:title="@string/nav_device_check" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_account_box"
+            android:title="@string/nav_change_info" />
+
+    </menu>
+    </item>
+    <item android:title="@string/nav_system">
+        <menu>
+            <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="@string/nav_setting" />
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_menu_share"
+                android:title="@string/nav_about" />
+            <item
+                android:id="@+id/nav_quit"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/nav_leave" />
+        </menu>
+    </item>
+
+</menu>
